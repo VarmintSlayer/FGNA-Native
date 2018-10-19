@@ -1,8 +1,8 @@
 <?xml version='1.0' encoding='utf-8'?>
 <widget id="io.SutterCorps.FGNAHistoricHomesTour" version="0.0.1" xmlns="http://www.w3.org/ns/widgets" xmlns:cdv="http://cordova.apache.org/ns/1.0">
-  <name>FGNA Historic Homes Tour</name>
+  <name>Native FGNA Historic Homes Tour</name>
   <description>
-      FGNA Historic Homes Tour.
+      Native FGNA Historic Homes Tour
   </description>
   <author email="suttercorps@gmail.com" href="http://www.nra.com">
       Sutter Corps
@@ -51,21 +51,12 @@
     specific language governing permissions and limitations
     under the License.
   -->
-  <preference name="phonegap-version" value="cli-8.0.0" />
 
       <!-- According to the docs you only need this block -->
       <!-- This plugin provides information about the device's location, such as latitude and longitude. -->
       <!-- <plugin name="cordova-plugin-geolocation" spec="~4" /> -->
-	  <plugin name="cordova-plugin-geolocation" />
+	  <plugin name="cordova-plugin-mauron85-background-geolocation" />
 	  <variable name="GEOLOCATION_USAGE_DESCRIPTION" value="This app uses your location to locate you on a map." />
       </plugin>
-
-      <!-- On Android the cordova-plugin-geolocation version 4.0.1 will not prompt for the geolocation permissions -->
-    <!-- With these permission overrides the app will ask for the fine location permission anyway -->
-    <platform name="android">
-        <uses-permission name="android.permission.ACCESS_COARSE_LOCATION" />
-        <uses-permission name="android.permission.ACCESS_FINE_LOCATION" />
-        <uses-permission name="android.permission.ACCESS_LOCATION_EXTRA_COMMANDS" />
-    </platform>
 
 </widget>
