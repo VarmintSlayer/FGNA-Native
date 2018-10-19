@@ -1,2 +1,0 @@
-# FGNA-Native
-FGNA-Native
