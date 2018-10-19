@@ -22,10 +22,9 @@
       <allow-intent href="market:*" />
   </platform>
 
-  <!--
-	Could try this, but do I need to add <platform name="android">??
-	 <plugin name="cordova-plugin-device" spec="https://github.com/apache/cordova-plugin-device.git#1.0.0" />
-
+	 <plugin name="cordova-plugin-device" spec="https://github.com/apache/cordova-plugin-device.git" />
+	 
+<!--
 		OR
 
 	<plugin name="cordova-plugin-geolocation" source="npm" />
