@@ -57,6 +57,8 @@
       <!-- <plugin name="cordova-plugin-geolocation" spec="~4" /> -->
 	  <plugin name="cordova-plugin-mauron85-background-geolocation" />
 	  <variable name="GEOLOCATION_USAGE_DESCRIPTION" value="This app uses your location to locate you on a map." />
+	  <variable name="GOOGLE_PLAY_SERVICES_VERSION" value="11+" />
+	  <variable name="ANDROID_SUPPORT_LIBRARY_VERSION" value="26+" />
       </plugin>
 
 </widget>
