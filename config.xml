@@ -22,7 +22,7 @@
       <allow-intent href="market:*" />
   </platform>
 
-	 <plugin name="cordova-plugin-geolocation" spec="https://github.com/apache/cordova-plugin-geolocation.git" />
+	 <plugin name="cordova-plugin-geolocation" spec="https://github.com/VarmintSlayer/cordova-plugin-geolocation.git" />
 	 
 <!--
 		OR
