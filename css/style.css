@@ -19,6 +19,7 @@ p.footer { font-size: 0.7em; }
 div.box {
     background: #006600;
     padding: 0.5em;
+    margin-left: 0.5em; margin-right: 0.5em;
     border: none;
   }
 
