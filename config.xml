@@ -9,10 +9,9 @@
   </author>
   <icon src="res/fgna.png" />
   <content src="index.html" />
-<manifest>
-	<uses-sdk android:minSdkVersion="19"
-		  android:targetSdkVersion="26" />
-</manifest>
+  <preference name="android-minSdkVersion" value="19" />
+  <preference name="android-targetSdkVersion" value="28" />
+
   <plugin name="cordova-plugin-whitelist" spec="1" />
   <access origin="*" />
   <allow-intent href="http://*/*" />
