@@ -24,9 +24,16 @@
       <allow-intent href="market:*" />
   </platform>
 
-  <plugin name="cordova-plugin-advanced-geolocation" spec="https://github.com/Esri/cordova-plugin-advanced-geolocation.git" />
+ 	<config-file target="AndroidManifest.xml" parent="/*">
+            <uses-permission android:name="android.permission.INTERNET" />
+            <uses-permission android:name="android.permission.ACCESS_WIFI_STATE" />
+            <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE"/>
+            <uses-permission android:name="android.permission.ACCESS_COARSE_LOCATION" />
+            <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION" />
+        </config-file>  
 
-  <!-- <plugin name="cordova-plugin-geolocation" spec="https://github.com/VarmintSlayer/cordova-plugin-geolocation.git" /> -->
+<!-- <plugin name="cordova-plugin-advanced-geolocation" spec="https://github.com/Esri/cordova-plugin-advanced-geolocation.git" /> -->
+
 	 
 <!--
 		OR
