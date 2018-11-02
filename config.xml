@@ -9,8 +9,10 @@
   </author>
   <icon src="res/fgna.png" />
   <content src="index.html" />
+<!--
   <preference name="android-minSdkVersion" value="19" />
   <preference name="android-targetSdkVersion" value="28" />
+	-->
 
   <plugin name="cordova-plugin-whitelist" spec="1" />
   <access origin="*" />
@@ -22,17 +24,9 @@
   <allow-intent href="geo:*" />
   <platform name="android">
       <allow-intent href="market:*" />
-  </platform>
+  </platform> 
 
- 	<config-file target="AndroidManifest.xml" parent="/*">
-            <uses-permission android:name="android.permission.INTERNET" />
-            <uses-permission android:name="android.permission.ACCESS_WIFI_STATE" />
-            <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE"/>
-            <uses-permission android:name="android.permission.ACCESS_COARSE_LOCATION" />
-            <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION" />
-        </config-file>  
-
-<!-- <plugin name="cordova-plugin-advanced-geolocation" spec="https://github.com/Esri/cordova-plugin-advanced-geolocation.git" /> -->
+<plugin name="cordova-plugin-advanced-geolocation" spec="https://github.com/Esri/cordova-plugin-advanced-geolocation.git" />
 
 	 
 <!--
