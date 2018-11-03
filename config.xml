@@ -9,10 +9,8 @@
   </author>
   <icon src="res/fgna.png" />
   <content src="index.html" />
-<!--
-  <preference name="android-minSdkVersion" value="19" />
-  <preference name="android-targetSdkVersion" value="28" />
-	-->
+<!-- <preference name="android-minSdkVersion" value="19" /> -->
+  <preference name="android-targetSdkVersion" value="26" />
 
   <plugin name="cordova-plugin-whitelist" spec="1" />
   <access origin="*" />
