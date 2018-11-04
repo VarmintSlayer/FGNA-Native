@@ -9,8 +9,8 @@
   </author>
 
   <icon src="res/fgna.png" />
-  <content src="https://s3.amazonaws.com/mobileapps/FGNAHistoricHomesTour/index_map.html" />
-  <!-- <content src="index.html" /> -->
+  <!-- <content src="https://s3.amazonaws.com/mobileapps/FGNAHistoricHomesTour/index_map.html" /> -->
+  <content src="index.html" />
 
 	<preference name='phonegap-version' value='cli-7.0.1' />
   <preference name="android-minSdkVersion" value="22" />
