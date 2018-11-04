@@ -28,7 +28,8 @@
       <allow-intent href="market:*" />
   </platform>
 
-<plugin name="cordova-plugin-advanced-geolocation" spec="https://github.com/Esri/cordova-plugin-advanced-geolocation.git" />
+<!-- <plugin name="cordova-plugin-advanced-geolocation" spec="https://github.com/Esri/cordova-plugin-advanced-geolocation.git" />
+-->
 
 <!--
 		OR
