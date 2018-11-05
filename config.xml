@@ -12,7 +12,7 @@
   <!-- <content src="https://s3.amazonaws.com/mobileapps/FGNAHistoricHomesTour/index_map.html" /> -->
   <content src="index.html" />
 
-	<preference name='phonegap-version' value='cli-7.0.1' />
+  <preference name='phonegap-version' value='cli-8.0.0' />
   <preference name="android-minSdkVersion" value="22" />
   <preference name="android-targetSdkVersion" value="28" />
 
@@ -27,6 +27,8 @@
   <platform name="android">
       <allow-intent href="market:*" />
   </platform>
+	
+	<plugin name="cordova-plugin-geolocation" spec="~4.0.1" />
 
 <!-- <plugin name="cordova-plugin-advanced-geolocation" spec="https://github.com/Esri/cordova-plugin-advanced-geolocation.git" />
 -->
