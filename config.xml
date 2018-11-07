@@ -13,8 +13,10 @@
   <content src="index.html" />
 
   <preference name='phonegap-version' value='cli-8.0.0' />
+	<!-- 
   <preference name="android-minSdkVersion" value="22" />
   <preference name="android-targetSdkVersion" value="28" />
+	-->
 
   <plugin name="cordova-plugin-whitelist" spec="1" />
   <access origin="*" />
